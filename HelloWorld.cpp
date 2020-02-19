@@ -5,32 +5,28 @@ void print()
 {
     //wanna use standart dll for print
     std::cout << "Hello Skillbox!\n";
+  
 }
 /*
 1 set some int's
 2 HELLO WORLD!
 */
+
+int sum(int a, int b, int c)
+{
+    return(a + b+ c);
+}
+
+int printint(int toprint)
+{
+    std::cout << toprint << "\n";
+    return toprint;
+}
+
 int main()
 {
+    int x = 10, y = 12;
+    long long summa = sum(x, y, x);
+    return 0;
 
-    int x = 100; 
-    3 + 7;
-    int y = x + 100;
-    
-
-    int b = 0;
-    b = b + 2;
-
-    int test;
-    test = 100500;
-
-    int test2 = 1005001;
-
-    int mult = x * y;
-    int random = 1002;
-
-
-    std::cout << random;
-
-   
 }
